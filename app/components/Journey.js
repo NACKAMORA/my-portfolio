@@ -32,7 +32,7 @@ const items = [
 export default function Journey() {
   return (
     <section id="journey" className={styles.section}>
-      <div className={styles.label}>my journey</div>
+      <div className={styles.label}> my journey</div>
       <h2>Experience &amp; Growth</h2>
       <div className={styles.timeline}>
         {items.map((item) => (
