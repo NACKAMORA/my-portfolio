@@ -1,0 +1,75 @@
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 2.5rem;
+}
+
+.label {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 8px; bottom: 0;
+  width: 1px;
+  background: var(--border);
+}
+
+.item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.item::before {
+  content: '';
+  position: absolute;
+  left: -2.4rem; top: 8px;
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--bg);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.date {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.role {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+
+.desc {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
