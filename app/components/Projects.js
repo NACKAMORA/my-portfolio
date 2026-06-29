@@ -34,7 +34,7 @@ const projects = [
 export default function Projects() {
   return (
     <section id="projects" className={styles.section}>
-      <div className={styles.label}>// projects &amp; work</div>
+      <div className={styles.label}>projects &amp; work</div>
       <h2>Things I&apos;ve Built &amp; Done</h2>
       <div className={styles.grid}>
         {projects.map((p) => (
